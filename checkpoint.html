@@ -5,47 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
-  <style>
-    .service-container {
-      display: flex;
-    }
+  <link rel="stylesheet" href="style.css">
 
-    .service-element {
-      margin: 5px;
-      background-color: brown;
-      color: white;
-    }
 
-    #text2 {
-      color: red;
-    }
-
-    #Steve_Jobs {
-      height: 150px;
-      width: 150px;
-      border-radius: 40px;
-    }
-
-    #about-auth {
-      display: flex;
-    }
-
-    #info {
-      display: flex;
-    }
-
-    #Home3 {
-      color: red;
-    }
-
-    #friends {
-      color: red;
-    }
-
-    #Home4 {
-      color: red;
-    }
-  </style>
 </head>
 
 <body>
@@ -63,10 +25,10 @@
   </nav>
   <!--this is a div -->
   <div>
-    <img src="facebook.png" alt="facebook icon" />
-    <img src="instagram.png" alt="instagram icon" />
-    <img src="twitter.png" alt="twitter icon" />
-    <img src="paintrest.png" alt="paintrest icon" />
+    <img class="icon" src="facebook.png" alt="facebook icon" />
+    <img class="icon" src="instagram.png" alt="instagram icon" />
+    <img class="icon" src="twitter.png" alt="twitter icon" />
+    <img class="icon" src="paintrest.png" alt="paintrest icon" />
 
     <h1>I am Steve Jobs</h1>
     <p id="text">
@@ -74,18 +36,20 @@
       field
     </p>
 
-    <button>my Portfolio</button>
+    <button id="Portfolio">my Portfolio</button>
     <button><img src="youtube.png" alt="youtube icon" /></button>
     <img src="steve jobs.jpeg" alt="steve jobs" />
   </div>
-  <!--this is a div-->
-  <div>
-    <p>services</p>
-    <h3>My Services</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam
 
-    </p>
+  <div>
+
+    <div class="centre">
+      <p id="red">services</p>
+      <h3>My Services</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam
+      </p>
+    </div>
 
     <div class="service-container">
 
@@ -165,32 +129,28 @@
       </div>
 
     </div>
-    <!--this is a nav-->
-    <nav>
-      <img src="airpods.png" alt="icons8-airpods-pro-48">
-      <a href="/Home/">Home</a>
-      <a href="/Services">Services</a>
-      <a href="About">About</a>
-      <a href="Skills">Skills</a>
-      <a href="Portfolio">Portfolio</a>
-      <a href="Blog">Blog</a>
-      <a href="Contact">Contact</a>
-    </nav>
+
+
     <!--this is a div-->
-    <div>
+
+    <div class="Blog">
       <h2>Latest Blog</h2>
       <button id="text2">Home</button>
     </div>
+
     <br>
     <br>
     <br>
+
     <!--this is a div -->
-    <div>
-      <img src="figure caption.jpeg" alt="Man on a Mountain" style="width: 500;" height="400">
+
+    <div class="photo">
+      <img id="main-img" src="figure caption.jpeg" alt="Man on a Mountain" style="width: 500;" height="400">
+
       <br>
 
       <img src="admin.png" alt="admin">
-      <span>Admin</span>
+      <span id="Admin">Admin</span>
 
       <img src="calender.png" alt="calender">
       <span> October 29,2019</span>
@@ -209,9 +169,9 @@
       <h4>Steve Jobs</h4>
       <img id="Steve_Jobs" src="steve jobs.jpeg" alt="Steve Jobs ">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      <img src="facebook.png" alt="facebool icon">
-      <img src="twitter.png" alt="twitter icon">
-      <img src="paintrest.png" alt="paintrest icon">
+      <img class="icon" src="facebook.png" alt="facebool icon">
+      <img class="icon" src="twitter.png" alt="twitter icon">
+      <img class="icon" src="paintrest.png" alt="paintrest icon">
     </div>
 
     <br><br>
@@ -248,17 +208,7 @@
 
     </div>
 
-    <!--this is a nav-->
-    <nav>
-      <img src="airpods.png" alt="icons8-airpods-pro-48">
-      <a href="/Home/">Home</a>
-      <a href="/Services">Services</a>
-      <a href="About">About</a>
-      <a href="Skills">Skills</a>
-      <a href="Portfolio">Portfolio</a>
-      <a href="Blog">Blog</a>
-      <a href="Contact">Contact</a>
-    </nav>
+   
 
     <br><br>
 
@@ -275,29 +225,23 @@
 
     <div>
       <img src="nature.jpeg" alt="nature" width="800" height="600">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolore vitae amet enim nulla voluptates sit
-        fugit aspernatur cupiditate accusamus! Non facilis mollitia suscipit necessitatibus nihil distinctio molestiae
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolore vitae amet enim nulla voluptates
+        sit
+        fugit aspernatur cupiditate accusamus! Non facilis mollitia suscipit necessitatibus nihil distinctio
+        molestiae
         aspernatur doloribus?</p>
 
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
 
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolore vitae amet enim nulla voluptates sit
-        fugit aspernatur cupiditate accusamus! Non facilis mollitia suscipit necessitatibus nihil distinctio molestiae
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolore vitae amet enim nulla voluptates
+        sit
+        fugit aspernatur cupiditate accusamus! Non facilis mollitia suscipit necessitatibus nihil distinctio
+        molestiae
         aspernatur doloribus?</p>
     </div>
 
 
-    <!--this is a nav-->
-    <nav>
-      <img src="airpods.png" alt="icons8-airpods-pro-48">
-      <a href="/Home/">Home</a>
-      <a href="/Services">Services</a>
-      <a href="About">About</a>
-      <a href="Skills">Skills</a>
-      <a href="Portfolio">Portfolio</a>
-      <a href="Blog">Blog</a>
-      <a href="Contact">Contact</a>
-    </nav>
+    
 
     <div>
       <h3>Page not found</h3>
@@ -318,12 +262,13 @@
 
     <footer>
       <img src="airpods.png" alt="airpods">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, asperiores animi esse fuga aut et qui incidunt
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, asperiores animi esse fuga aut et qui
+        incidunt
         veritatis necessitatibus. Quae consectetur quasi qui facilis molestias sequi animi iste quidem dolor.</p>
-      <img src="facebook.png" alt="facebook icon" />
-      <img src="instagram.png" alt="instagram icon" />
-      <img src="twitter.png" alt="twitter icon" />
-      <img src="paintrest.png" alt="paintrest icon" />
+      <img class="icon" src="facebook.png" alt="facebook icon" />
+      <img class="icon" src="instagram.png" alt="instagram icon" />
+      <img class="icon" src="twitter.png" alt="twitter icon" />
+      <img class="icon" src="paintrest.png" alt="paintrest icon" />
     </footer>
 </body>
 
